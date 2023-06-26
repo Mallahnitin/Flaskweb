@@ -13,4 +13,4 @@ COPY . .
 ENTRYPOINT ["python", "./runserver.py"] 
 
 # exposing the port to match the port in the runserver.py file
-EXPOSE 5555
+EXPOSE 80
